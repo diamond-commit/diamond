@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <!--Skill stack-->
+<div class="grid grid-cols-1 md:grid-cols-3 md:gap-8 m-2 items-start">
+
+  <!-- Empty spacer for md+ -->
+  <div class="bg-zinc-900 hidden md:block"></div>
+
+  <!-- Work experience block -->
+  <div class="bg-gradient-to-r from-green-500 to-green-700 text-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
+    <h2 class="text-xl md:text-2xl font-bold mb-2">Work Experience</h2>
+    <p class="text-sm md:text-base opacity-90">
+      2+ years building backend and full-stack apps. Focused on <span class="font-semibold text-yellow-400">Laravel</span> & <span class="font-semibold text-blue-400">PostgreSQL</span>.
+    </p>
+  </div>
+
+  <!-- Core Tech Stack -->
+  <div class="flex flex-col bg-zinc-900 p-6 gap-6 rounded-lg">
+
+    <h2 class="font-mono md:text-xl text-white">Core Technologies</h2>
+
+    <!-- First row -->
+    <div class="flex gap-8  items-baseline justify-center md:justify-start relative before:absolute before:top-0 before:left-0 before:w-full before:h-1 before:rounded-full before:bg-gradient-to-r before:from-purple-400 before:via-pink-500 before:to-red-500">
+
+      <!-- PHP -->
+      <div class="flex flex-col items-center transform transition-all duration-300 hover:-translate-y-3 hover:scale-105">
+        <svg class="w-16 h-16 md:w-20 md:h-20 xl:w-28 xl:h-28" viewBox="0 0 24 24"><title>PHP</title>
+          <path fill="#8892be" d="M7.01 10.207h-.944l-.515 2.648h.838c.556 0 .97-.105 1.242-.314.272-.21.455-.559.55-1.049.092-.47.05-.802-.124-.995-.175-.193-.523-.29-1.047-.29zM12 5.688C5.373 5.688 0 8.514 0 12s5.373 6.313 12 6.313S24 15.486 24 12c0-3.486-5.373-6.312-12-6.312zm-3.26 7.451c-.261.25-.575.438-.917.551-.336.108-.765.164-1.285.164H5.357l-.327 1.681H3.652l1.23-6.326h2.65c.797 0 1.378.209 1.744.628.366.418.476 1.002.33 1.752a2.836 2.836 0 0 1-.305.847c-.143.255-.33.49-.561.703zm4.024.715l.543-2.799c.063-.318.039-.536-.068-.651-.107-.116-.336-.174-.687-.174H11.46l-.704 3.625H9.388l1.23-6.327h1.367l-.327 1.682h1.218c.767 0 1.295.134 1.586.401s.378.7.263 1.299l-.572 2.944h-1.389zm7.597-2.265a2.782 2.782 0 0 1-.305.847c-.143.255-.33.49-.561.703a2.44 2.44 0 0 1-.917.551c-.336.108-.765.164-1.286.164h-1.18l-.327 1.682h-1.378l1.23-6.326h2.649c.797 0 1.378.209 1.744.628.366.417.477 1.001.331 1.751zM17.766 10.207h-.943l-.516 2.648h.838c.557 0 .971-.105 1.242-.314.272-.21.455-.559.551-1.049.092-.47.049-.802-.125-.995s-.524-.29-1.047-.29z"/>
+        </svg>
+        <span class="text-white mt-2 font-bold tracking-wide">PHP</span>
+      </div>
+
+      <!-- Laravel -->
+      <div class="flex flex-col items-center transform transition-all duration-300 hover:-translate-y-3 hover:scale-105">
+        <svg class="w-16 h-16 md:w-20 md:h-20 xl:w-28 xl:h-28" viewBox="0 0 24 24"><title>Laravel</title>
+          <path fill="#f05340" d="M23.642 5.43..."/>
+        </svg>
+        <span class="text-red-400 mt-2 font-bold tracking-wide">Laravel</span>
+      </div>
+
+      <!-- PostgreSQL -->
+      <div class="flex flex-col items-center transform transition-all duration-300 hover:-translate-y-3 hover:scale-105">
+        <svg class="w-16 h-16 md:w-20 md:h-20 xl:w-28 xl:h-28" viewBox="0 0 24 24"><title>PostgreSQL</title>
+          <path fill="#31648c" d="M23.5594 14.7228..."/>
+        </svg>
+        <span class="text-blue-400 mt-2 font-bold tracking-wide">PostgreSQL</span>
+      </div>
+    </div>
+
+    <!-- Second row -->
+    <div class="flex gap-8 justify-center md:justify-start relative after:absolute after:bottom-0 after:left-0 after:w-full after:h-1 after:rounded-full after:bg-gradient-to-r after:from-pink-500 after:via-purple-500 after:to-indigo-500 mt-6">
+
+      <!-- Tailwind -->
+      <div class="flex flex-col items-center transform transition-all duration-300 hover:-translate-y-3 hover:scale-105">
+        <svg class="w-16 h-16 md:w-20 md:h-20 xl:w-28 xl:h-28" viewBox="0 0 24 24"><title>Tailwind CSS</title>
+          <path fill="#38bdf8" d="M12.001,4.8..."/>
+        </svg>
+        <span class="text-sky-400 mt-2 font-bold tracking-wide">Tailwind</span>
+      </div>
+
+      <!-- GitHub -->
+      <div class="flex flex-col items-center transform transition-all duration-300 hover:-translate-y-3 hover:scale-105">
+        <svg class="w-16 h-16 md:w-20 md:h-20 xl:w-28 xl:h-28" viewBox="0 0 24 24"><title>GitHub</title>
+          <path fill="#ffffff" d="M12 .297c-6.63 0-12 5.373-12 12..."/>
+        </svg>
+        <span class="text-gray-200 mt-2 font-bold tracking-wide">GitHub</span>
+      </div>
+
+      <!-- JavaScript -->
+      <div class="flex flex-col items-center transform transition-all duration-300 hover:-translate-y-3 hover:scale-105">
+        <svg class="w-16 h-16 md:w-20 md:h-20 xl:w-28 xl:h-28" viewBox="0 0 24 24"><title>JavaScript</title>
+          <path fill="#f7df1e" d="M0 0h24v24H0V0zm22.034 18.276..."/>
+        </svg>
+        <span class="text-yellow-400 mt-2 font-bold tracking-wide">JavaScript</span>
+      </div>
+      
+    </div>
+
+  </div>
+</div>
+</body>
+</html>
